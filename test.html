@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <script src="myLoc.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/css/ol.css" type="text/css">
+
+
+  <style >
+    .map{
+      height:400px;
+      width:40%;
+    }
+  </style>
+
+</head>
+  <div id="location">
+    Your Location will go here.
+  </div>
+
+<div id="distance">
+  distance from Wickedly Smart HQ will go here.
+
+</div>
+
+<div >
+  <form >
+    <input type="button" id="watch" value="watch me">
+    <input type="button" id="clearWatch" value="clear watch">
+
+  </form>
+</div>
+
+
+<div id="map" class="map">
+
+</div>
+<div id="popup" class="ol-popup">
+     <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+     <div id="popup-content"></div>
+ </div>
+
+<body>
+
+
+</body>
